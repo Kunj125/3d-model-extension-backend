@@ -22,8 +22,8 @@ const apiRouter = express.Router();
 let apiModules = fs.readdirSync("./api").filter(file => file.endsWith(".js"));
 for(let module of apiModules) { require("./api/" + module)(apiRouter) };
 
-// Fallback for non-existent API endpoints
-apiRouter.get("/api/*", (req, res) => {
+// Fallback for non-existent endpoints
+app.get("*", (req, res) => {
     res.status(400).send("Bad Request!");
 });
 
