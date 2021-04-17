@@ -1,8 +1,10 @@
 const path = require("path");
 const fs = require("fs");
+
 const express = require("express");
-const { resolveSoa } = require("dns");
+const cors = require("cors");
 const app = express();
+app.use(cors({ origin: "*" }));
 
 // Handling static serving of files
 const staticRouter = express.Router();
@@ -23,7 +25,7 @@ let apiModules = fs.readdirSync("./api").filter(file => file.endsWith(".js"));
 for(let module of apiModules) { require("./api/" + module)(apiRouter) };
 
 // Fallback for non-existent endpoints
-app.get("*", (req, res) => {
+apiRouter.get("/api/*", (req, res) => {
     res.status(400).send("Bad Request!");
 });
 
