@@ -1,0 +1,14 @@
+{
+  "name": "hackvh-backend",
+  "version": "1.0.0",
+  "description": "Backend for the 3D Model Viewer Extension project for HackVH",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TheUltimateKeval",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
