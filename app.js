@@ -19,6 +19,7 @@ staticRouter.get("/s/*", (req, res) => {
 
 // Handling API requests
 const apiRouter = express.Router();
+apiRouter.use(express.json());
 
 // Loading API request handlers
 let apiModules = fs.readdirSync("./api").filter(file => file.endsWith(".js"));
