@@ -31,4 +31,5 @@ apiRouter.get("/api/*", (req, res) => {
 });
 
 app.use(staticRouter, apiRouter);
-app.listen(5000);
+let server = app.listen(5000);
+require("./ws")(server);

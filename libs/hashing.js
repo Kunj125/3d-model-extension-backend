@@ -8,4 +8,8 @@ function genHash(value) {
     return hash;
 }
 
-module.exports = { genHash };
+function randomKey() {
+    return crypto.randomBytes(8).toString("hex");
+}
+
+module.exports = { genHash, randomKey };

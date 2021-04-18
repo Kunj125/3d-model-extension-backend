@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pulmones (con transparencia)
+* source:	https://sketchfab.com/3d-models/pulmones-con-transparencia-16542b3053fe493f9e41e6c6968b30fe
+* author:	alebogino (https://sketchfab.com/alebogino)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pulmones (con transparencia)" (https://sketchfab.com/3d-models/pulmones-con-transparencia-16542b3053fe493f9e41e6c6968b30fe) by alebogino (https://sketchfab.com/alebogino) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
